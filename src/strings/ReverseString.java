@@ -10,7 +10,7 @@ public class ReverseString {
         String[] words=sentence.split(" ");//split() converts sentence into words.
         for (int i=words.length-1;i>=0;i--)//Traverse from end to beginning.
         {
-            System.out.print(words[i]+ " ");
+            System.out.print(words[i]);
         }
 
     }
