@@ -24,10 +24,9 @@ public class Anagram {
        {
            System.out.println("Is Anagram.");
        }
-       else {
+       else
+       {
            System.out.println("Not Anagram");
        }
-
-
     }
 }
