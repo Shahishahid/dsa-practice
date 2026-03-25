@@ -1,0 +1,16 @@
+package oops.inheritance.single;
+
+public class Dog extends Animal{
+    public void sleep()
+    {
+        System.out.println("Dog is Sleeping.");
+    }
+    public static void main(String[] args)
+    {
+        Dog d=new Dog();
+        d.eat();
+        d.sleep();
+
+
+    }
+}
